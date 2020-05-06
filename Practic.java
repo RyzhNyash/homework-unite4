@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Practic {
     public static void main(String[] args) {
 
-        int x1 = MyImp();
+        int x1 = myImp();
 
-        OuTex(x1);
+        ouTex(x1);
 
-        Tab(x1);
+        tab(x1);
     }
 
-    public static int MyImp() {
+    public static int myImp() {
         int xin;
 
         Scanner sc = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Practic {
         return xin;
     }
 
-    public static void Tab(int x1) {
+    public static void tab(int x1) {
 
         if (x1 > 0) {
             for (int i = 1; i <= 10; i++) {
@@ -36,9 +36,7 @@ public class Practic {
         }
     }
 
-    public static void OuTex(int x1) {
+    public static void ouTex(int x1) {
         System.out.println("таблица умножения " + x1);
     }
 }
-
-
