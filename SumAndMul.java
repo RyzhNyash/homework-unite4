@@ -8,16 +8,16 @@ public class SumAndMul {
     public static void main(String[] args) {
 
         System.out.println("Введите x: ");
-        int x = InpNumber();
+        int x = inpNumber();
 
         System.out.println("Введите y: ");
-        int y = InpNumber();
+        int y = inpNumber();
 
-        Ops(x, y);
+        ops(x, y);
 
     }
 
-    public static int InpNumber() {
+    public static int inpNumber() {
 
         int xIn;
 
@@ -31,7 +31,7 @@ public class SumAndMul {
         return xIn;
     }
 
-    public static void Ops (int x, int y) {
+    public static void ops (int x, int y) {
         int sum, mul;
 
         sum = x + y;
