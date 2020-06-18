@@ -1,0 +1,45 @@
+1. Укажите имя файла, в которых могут размещаться следующие классы. Объясните свой выбор.
+
+
+
+2. Впишите в класс MyClass метод main и объявите, что данный класс лежит в пакете by.epam.tr.check
+
+package by.epam.tr.check;
+
+public class MyClass {
+    public static void main(String[] args) {
+    }
+}
+
+3. Напишите недостающий код в пример, решающий задачу нахождения наименьшего из двух чисел. 
+
+import java.util.Scanner;
+
+public class FindMin {
+    public static void main(String[] args) {
+        int x;
+        int y;
+        int min;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Введите x: ");x =sc.nextInt();
+
+        System.out.print("Введите y: ");y =sc.nextInt();
+
+        min = Math.min(x, y);
+
+        System.out.println("min = " + min);
+    }
+
+}
+
+4. Напишите компилируемый класс, выводящий на консоль числа от 1 до 10. 
+
+public class OneToTen {
+    public static void main(String[] args) {
+        for (int i = 1; i < 11; i++){
+            System.out.println(i);
+        }
+    }
+}
