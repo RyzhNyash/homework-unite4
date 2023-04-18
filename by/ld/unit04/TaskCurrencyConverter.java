@@ -76,7 +76,7 @@ public class TaskCurrencyConverter {
         return;
     }
 
-    //__________декомпозиция !!!
+    //__________декомпозиция должна быть !!!
 
     public static String inputType1() {
 
